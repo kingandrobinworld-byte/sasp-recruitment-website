@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#10243b">
+<title>San Andreas State Police | Recruitment</title>
+<style>
+:root{--navy:#10243b;--navy2:#1c3854;--gold:#c6a34c;--ink:#182536;--muted:#637184;--paper:#f3f5f8}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6}
+header{background:var(--navy);color:#fff;padding:20px 7%;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;border-bottom:4px solid var(--gold)}
+.brand h1{font-size:clamp(15px,2vw,19px);letter-spacing:1.2px}
+.brand p{color:#e0c77f;font-size:10px;letter-spacing:2px;margin-top:3px}
+nav{display:flex;gap:22px;flex-wrap:wrap}
+nav a{color:#fff;text-decoration:none;font-size:13px;font-weight:700}
+nav a:hover{color:#e0c77f}
+.hero{background:linear-gradient(115deg,rgba(16,36,59,.98),rgba(28,56,84,.94));color:#fff;padding:clamp(60px,9vw,105px) 8%;border-bottom:1px solid #d4dce5}
+.eyebrow{color:#e0c77f;font-size:11px;letter-spacing:3px;font-weight:700}
+.hero h2{font-size:clamp(34px,5.5vw,58px);line-height:1.12;margin:20px 0;max-width:760px}
+.hero p{color:#d5dce5;line-height:1.8;max-width:620px}
+.button{display:inline-block;background:var(--gold);color:var(--navy);text-decoration:none;padding:14px 23px;margin-top:27px;font-weight:800;font-size:12px;letter-spacing:.7px;border-radius:2px}
+.button:hover{background:#e0c77f}
+.section{padding:65px 8%}
+.section h2{font-size:28px;color:var(--navy);margin-bottom:12px}
+.section-intro{color:var(--muted);max-width:760px}
+.rule{width:55px;height:3px;background:var(--gold);margin:18px 0 22px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:30px}
+.card{background:#fff;padding:25px;border:1px solid #dce2e9;border-top:4px solid var(--gold);box-shadow:0 5px 18px rgba(16,36,59,.04)}
+.card h3{color:var(--navy);margin-bottom:9px;font-size:17px}
+.card p{color:var(--muted);font-size:14px}
+.application-wrap{background:#fff;border:1px solid #dce2e9;margin-top:26px;padding:10px;box-shadow:0 5px 18px rgba(16,36,59,.05)}
+.application-wrap iframe{display:block;width:100%;height:1000px;border:0}
+.notice{background:#e9eef3;border-left:4px solid var(--gold);padding:15px 18px;margin-top:20px;color:#405064;font-size:13px}
+footer{background:var(--navy);color:#d4dce6;text-align:center;padding:28px 15px;font-size:12px;line-height:1.9;border-top:4px solid var(--gold)}
+footer strong{color:#fff;letter-spacing:1px}
+@media(max-width:620px){header{padding:18px 5%}nav{gap:15px}.hero{padding:58px 7%}.section{padding:48px 7%}.application-wrap iframe{height:1100px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <h1>SAN ANDREAS STATE POLICE</h1>
+    <p>OFFICE OF THE COMMISSIONER</p>
+  </div>
+  <nav aria-label="Main navigation">
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#careers">CAREERS</a>
+    <a href="#apply">APPLY</a>
+  </nav>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="eyebrow">PERSONNEL &amp; RECRUITMENT DIVISION</div>
+    <h2>Serve With Honor.<br>Protect With Integrity.</h2>
+    <p>Welcome to the San Andreas State Police recruitment portal. Explore opportunities to serve and begin your application to join the department.</p>
+    <a class="button" href="#apply">BEGIN YOUR APPLICATION</a>
+  </section>
+  <section class="section" id="about">
+    <h2>About the Department</h2><div class="rule"></div>
+    <p class="section-intro">The San Andreas State Police is committed to professionalism, integrity, accountability, and public service. Our personnel uphold the standards of the department through dedication and responsible service to the community.</p>
+  </section>
+  <section class="section" id="careers">
+    <h2>Recruitment Opportunities</h2><div class="rule"></div>
+    <p class="section-intro">Review the available career pathways within the department.</p>
+    <div class="cards">
+      <article class="card"><h3>Trooper</h3><p>Submit an application to be considered for a sworn position with the San Andreas State Police.</p></article>
+      <article class="card"><h3>Supervisory Positions</h3><p>Explore leadership opportunities and the responsibilities of supervising department personnel.</p></article>
+      <article class="card"><h3>Command Staff</h3><p>Learn about department leadership and command-level opportunities.</p></article>
+    </div>
+  </section>
+  <section class="section" id="apply">
+    <h2>Trooper Application</h2><div class="rule"></div>
+    <p class="section-intro">Complete the application below. Please ensure your responses are accurate and complete before submitting.</p>
+    <div class="notice">If the application does not appear, open it directly using the Google Forms link or check that the form is accepting responses.</div>
+    <div class="application-wrap">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScnOluPiALqZyuvjRpF2Cxbki3C6HIPX06eAxp3jLcjTNh1sg/viewform?embedded=true" title="SASP Trooper Application" loading="lazy">Loading application…</iframe>
+    </div>
+  </section>
+</main>
+<footer><strong>SAN ANDREAS STATE POLICE</strong><br>OFFICE OF THE COMMISSIONER<br>Official Recruitment Portal · Roleplay Community</footer>
+</body>
+</html>
